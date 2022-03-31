@@ -12,7 +12,7 @@ public class Controlador {
 
     @RequestMapping("/")
     public String index() {
-        return "example";
+        return "index";
     }
 
     @PostMapping("/tunombre")
