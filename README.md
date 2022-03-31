@@ -1,3 +1,3 @@
 Práctica 1
 
-Altamirano Niño Luis Enrique - 315324972
+Altamirano Niño Luis Enriqe - 315324972
