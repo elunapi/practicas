@@ -29,12 +29,11 @@
 </head>
 <body>
     <div class="container">
-        <h2 class="mensaje fuente">Bienvenido!</h2>
+        <h1 class="mensaje fuente">Bienvenido!</h1>
         <div class="text-center">
             <form method="post" th:action="@{/tunombre}">
                 <div class="mb-3">
-                    <input type="text" id="titulo" name="titulo" class="form-control"
-                           placeholder="Introduce tu nombre" required/>
+                    <input type="hidden" id="nombre" name="nombre" value="Luis Enrique Altamirano Niño"/>
                 </div>
                 <button class="nbtn btn btn-info fuente" type="submit">Entrar</button>
             </form>

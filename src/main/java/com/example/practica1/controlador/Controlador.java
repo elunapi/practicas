@@ -17,7 +17,7 @@ public class Controlador {
 
     @PostMapping("/tunombre")
     public String tunombre(HttpServletRequest request, Model model ) {
-        String nombre = request.getParameter("titulo");
+        String nombre = request.getParameter("nombre");
         System.out.println("nombre -> " + nombre);
         model.addAttribute("nombre", nombre);
         return "nombres";
